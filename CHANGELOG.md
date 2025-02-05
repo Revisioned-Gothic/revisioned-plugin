@@ -1,2 +1,1 @@
-- Refactorized code base to support multiple gothic platforms
-- Added support for **gothic 2** platform
+- Fixed critical bug in gothic-api dependency (crashes on MP builds caused by improper registries handling)
