@@ -3,6 +3,9 @@ name: "Plugin CI/CD"
 on:
   release:
     types: [created]
+
+permissions:
+  contents: write
     
 jobs:
   plugin:
