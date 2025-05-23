@@ -153,9 +153,9 @@ namespace GOTHIC_NAMESPACE
 		Game_PostLoop();
 	}*/
 
-	/*void __fastcall zCWorld_Render(Union::Registers& reg);
-	auto Partial_zCWorld_Render = Union::CreatePartialHook(reinterpret_cast<void*>(zSwitch(0x005F409C, 0x00614F4C, 0x0061A1F0, 0x00621940)), &zCWorld_Render);
-	void __fastcall zCWorld_Render(Union::Registers& reg)
+	/*void __fastcall zCSession_MainWorld_Render(Union::Registers& reg);
+	auto Partial_zCWorld_Render = Union::CreatePartialHook(reinterpret_cast<void*>(zSwitch(0x005B74FC, 0x005D4E7C, 0x005D7C5C, 0x005DEA1C)), &zCSession_MainWorld_Render);
+	void __fastcall zCSession_MainWorld_Render(Union::Registers& reg)
 	{
 		Game_Loop();
 	}*/
